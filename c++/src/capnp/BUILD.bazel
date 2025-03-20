@@ -81,6 +81,7 @@ cc_library(
         "rpc-twoparty.h",
     ],
     include_prefix = "capnp",
+    includes = ["."],
     visibility = ["//visibility:public"],
     deps = [
         ":capnp",
