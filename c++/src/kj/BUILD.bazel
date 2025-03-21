@@ -70,6 +70,7 @@ cc_library(
         "windows-sanity.h",
     ],
     include_prefix = "kj",
+    cxxopts = "-std=c++14",
     linkopts = select({
         "@platforms//os:windows": [],
         ":use_libdl": [
