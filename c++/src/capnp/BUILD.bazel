@@ -7,6 +7,7 @@ cc_library(
         "arena.c++",
         "blob.c++",
         "c++.capnp.c++",
+        "capability.c++",
         "dynamic.c++",
         "layout.c++",
         "list.c++",
